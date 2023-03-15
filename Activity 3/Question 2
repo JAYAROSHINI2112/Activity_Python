@@ -1,0 +1,9 @@
+a = {23,45,78,8,56}
+b = {42,55,26,87}
+
+print("\nCompare A and B : ",a.isdisjoint(b))
+
+o/p
+
+
+Compare A and B :  True
