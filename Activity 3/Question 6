@@ -1,0 +1,14 @@
+import random
+import string
+
+print("Your Licence Plate Number is ")
+for i in range(1,5):
+     y = random.randrange(9)
+     print(y,end="")
+for i in range(1,4):  
+    letters = random.choice(string.ascii_letters)
+    print(letters,end="")
+    
+    o/p
+Your Licence Plate Number is 
+4808gEl
