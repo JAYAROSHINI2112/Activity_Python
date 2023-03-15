@@ -1,0 +1,9 @@
+x = [1, 2, 3, 5, 7, 8, 9, 10]
+y = [10,9,8,7]
+
+val = list(filter(lambda l: l in x, y)) 
+print ("\nIntersection of the said arrays: ",val)
+
+o/p
+
+Intersection of the said arrays:  [10, 9, 8, 7]
