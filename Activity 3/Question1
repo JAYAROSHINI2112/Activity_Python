@@ -1,0 +1,14 @@
+setn = {5, 10, 3, 15, 2, 20}
+
+print("\nMaximum value of the said set:")
+print(max(setn))
+print("\nMinimum value of the said set:")
+print(min(setn))
+
+o/p
+setn = {5, 10, 3, 15, 2, 20}
+
+print("\nMaximum value of the said set:")
+print(max(setn))
+print("\nMinimum value of the said set:")
+print(min(setn))
