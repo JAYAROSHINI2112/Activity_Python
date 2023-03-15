@@ -1,0 +1,19 @@
+def fun_lam(n,x,y):
+   a = lambda n : n + 15
+   print(a(n))
+   b = lambda x,y : x*y 
+   print(b(x,y))
+
+
+l = int(input("Enter the n   "))
+m = int(input("Enter the a   "))
+k = int(input("Enter the b   "))
+fun_lam(l,m,k)
+
+
+o/p
+Enter the n   5
+Enter the a   3
+Enter the b   2
+20
+6
