@@ -1,0 +1,19 @@
+import datetime
+now = datetime.datetime.now()
+print(now)
+year = lambda x:x.year
+month = lambda x:x.month
+date = lambda x:x.day
+t = lambda x:x.time()
+print(year(now))
+print(month(now))
+print(date(now))
+print(t(now))
+
+
+o/p
+2023-03-15 17:54:01.967853
+2023
+3
+15
+17:54:01.967853
