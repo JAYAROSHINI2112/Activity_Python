@@ -1,0 +1,22 @@
+def fun(n):
+    if 4 <= n <= 12:
+      suffix = 'th'
+    elif n == 1:
+      suffix = 'st'
+    elif n == 2:
+      suffix = 'nd'
+    elif n == 3:
+      suffix = 'rd'
+    else:
+        return
+    ord_num = str(n) + suffix  
+    return ord_num
+
+n = int(input("Enter the no btw 1 to 12  "))
+print(fun(n))
+
+
+o/p
+
+Enter the no btw 1 to 12  2
+2nd
